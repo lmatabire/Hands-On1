@@ -10,7 +10,7 @@ const Index = ({pathname}) => {
             return <About />
         case '/signin':
             return <SignIn />
-        case '/Signup':
+        case '/signup':
             return <SignUp />
         default:
             return <Home />
